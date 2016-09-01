@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>通用下载</title>
+</head>
+<body>
+<script type="text/javascript">
+var ua = navigator.userAgent;
+var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+isIphone = ua.match(/(iPhone\sOS)\s([\d_]+)/),
+isIpod = ua.match(/iPod/i),
+isAndroid = ua.match(/(Android)\s+([\d.]+)/);
+if(isIphone) {
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/iosapp.plist";
+}else if(ipad){
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/iosapp.plist";
+}else if(isIpod){
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/iosapp.plist";
+}
+else{
+    alert('请使用苹果移动设备在浏览器中打开');
+}
+</script>
+</body>
+</html>
