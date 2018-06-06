@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://kouliang.github.io/appRelease/iosapp.ipa</string>
+					<string>http://p9w68mkgr.bkt.clouddn.com/iosapp.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.tuanche.tool</string>
+				<string>com.kingsoft.www.office.wpsoffice</string>
 				<key>bundle-version</key>
 				<string>V2.4</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>xxx</string>
+				<string>wps</string>
 				<key>subtitle</key>
 				<string></string>
 			</dict>
