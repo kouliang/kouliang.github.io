@@ -12,11 +12,11 @@ isIphone = ua.match(/(iPhone\sOS)\s([\d_]+)/),
 isIpod = ua.match(/iPod/i),
 isAndroid = ua.match(/(Android)\s+([\d.]+)/);
 if(isIphone) {
-    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/manifest.plist";
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/easybits/manifest.plist";
 }else if(ipad){
-    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/manifest.plist";
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/easybits/manifest.plist";
 }else if(isIpod){
-    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/manifest.plist";
+    window.location.href="itms-services:///?action=download-manifest&url=https://kouliang.github.io/appRelease/easybits/manifest.plist";
 }
 else{
     alert('请使用苹果移动设备在浏览器中打开');
