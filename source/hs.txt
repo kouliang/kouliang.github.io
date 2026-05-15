@@ -1,0 +1,9 @@
+5.how to onchain settlement?
+The official product line of circle's "on-chain-fiat border" is CPN Managed Payments. The focus is on differentiating between Payins (USDC-to-fiat) and Payouts (fiat-to-USDC) and listing key APIs.
+
+https://developers.circle.com/cpn/managed-payments/concepts/settlement-flows?utm_source=openai
+
+6.circle bridge
+CCTP(Cross-Chain Transfer Protocol)."Cross-chain delivery" usually revolves around CCTP's burn + attestation + mint to land.
+
+https://www.circle.com/cross-chain-transfer-protocol?utm_source=openai
