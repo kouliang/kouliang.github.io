@@ -1,9 +1,9 @@
-5.how to onchain settlement?
-The official product line of circle's "on-chain-fiat border" is CPN Managed Payments. The focus is on differentiating between Payins (USDC-to-fiat) and Payouts (fiat-to-USDC) and listing key APIs.
+从现有公开资料来看，EIP-681（ERC-681）对主流钱包的支持呈现“能用/部分支持，但没有统一到可验证的‘全量兼容名单’”的状态：很多钱包会支持用 EIP-681 生成的支付/转账 URI 或二维码来“打开钱包并预填收款信息”，但不同钱包对字段（如 token、amount、chain_id、gas 等）是否完全解析、以及是否真正构造出完整交易，表现并不一致。
 
-https://developers.circle.com/cpn/managed-payments/concepts/settlement-flows?utm_source=openai
+MetaMask、Trust Wallet、Coinbase Wallet、Rainbow：多方资料普遍提到它们会识别 EIP-681 风格的支付二维码/URI，从而让用户在扫描后完成交易的发起流程（通常是预填收款地址、网络、代币与金额等）。
 
-6.circle bridge
-CCTP(Cross-Chain Transfer Protocol)."Cross-chain delivery" usually revolves around CCTP's burn + attestation + mint to land.
+一些钱包在特定链/参数上存在解析问题或不完整实现：例如 Trust Wallet 的 wallet-core 里曾出现过与 EIP-681 在 BSC/MATIC（特定链）解析失败相关的 issue，这说明兼容性在细节上可能不一致。
 
-https://www.circle.com/cross-chain-transfer-protocol?utm_source=openai
+
+EIP-681 标准目标与字段定义
+https://eips.ethereum.org/EIPS/eip-681
