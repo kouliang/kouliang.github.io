@@ -46,3 +46,25 @@ archax.com
 * 受规管的交易所与经纪商：为全球机构投资者提供合规的多边交易设施（MTF），支持加密货币、数字证券及代币化现实世界资产（RWA，如货币市场基金）的二级市场交易。
    * 合规数字托管：提供受规管的数字资产、数字证券代币的安全托管与 safeguarding 资金隔离解决方案。
    * 全生命周期代币化：协助资产发行方进行合规代币募资、一级发行以及后续的实时流动性利息派发。 [30, 32, 33, 34, 35, 36] 
+
+
+
+
+Digital asset protection and security platform
+Disaster Recovery & Key Backup; Transaction Monitoring & Fraud Prevention; Insurance-Backed Protection
+
+Enterprise-grade Blockchain-as-a-Service (BaaS) and digital asset platform
+Click-to-Deploy Cloud Infrastructure; Full-Stack Smart Contract Management; Asset Tokenization & Interoperability
+
+Institutional-grade tokenization interoperability software
+FinP2P Protocol Routing; Cross-Chain Settlement; Liquidity Distribution
+
+High-performance Web3 infrastructure provider
+Elastic Core RPC APIs; Advanced Data Streaming & Querying; Developer Marketplace
+
+Blockchain research, engineering, and security firm
+Nethermind Execution Client; Advanced Smart Contract Auditing; Institutional Staking & Layer-2 Engineering
+
+Digital asset exchange, broker, and custodian regulated by the UK Financial Conduct Authority (FCA)
+Regulated Multilateral Trading Facility (MTF); In-House Regulated Custody; End-to-End Asset Issuance
+
